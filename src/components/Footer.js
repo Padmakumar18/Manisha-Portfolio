@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-300">
-              © {currentYear} [Your Name]. All rights reserved.
+              © {currentYear} Jayamanisha. All rights reserved.
             </p>
           </div>
 
@@ -61,11 +61,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-6 pt-6 border-t border-gray-700 text-center">
+        {/* <div className="mt-6 pt-6 border-t border-gray-700 text-center">
           <p className="text-gray-400 text-sm">
             Built with React & Tailwind CSS • Designed with ❤️
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

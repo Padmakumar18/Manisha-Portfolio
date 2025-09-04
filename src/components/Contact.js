@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast, Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
     // Handle form submission here (e.g., send to backend or email service)
     console.log("Form submitted:", formData);
-    alert("Thank you for your message! I'll get back to you soon.");
+    toast.success("Thank you for your message! I'll get back to you soon.");
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -40,8 +41,8 @@ const Contact = () => {
         </svg>
       ),
       label: "Email",
-      value: "[your.email@example.com]",
-      link: "mailto:[your.email@example.com]",
+      value: "manisharajkumar46@gmail.com",
+      link: "mailto:manisharajkumar46@gmail.com",
     },
     {
       icon: (
@@ -50,8 +51,8 @@ const Contact = () => {
         </svg>
       ),
       label: "LinkedIn",
-      value: "linkedin.com/in/[username]",
-      link: "https://linkedin.com/in/[username]",
+      value: "Jayamanisha",
+      link: "https://www.linkedin.com/in/manisha-rajkumar-a2b676251/",
     },
     {
       icon: (
@@ -64,13 +65,14 @@ const Contact = () => {
         </svg>
       ),
       label: "GitHub",
-      value: "github.com/[username]",
-      link: "https://github.com/[username]",
+      value: "manisharajkumar46",
+      link: "https://github.com/manisharajkumar46/manisharajkumar46/",
     },
   ];
 
   return (
     <section id="contact" className="py-20 bg-gray-50">
+      <Toaster position="top-center" />
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">

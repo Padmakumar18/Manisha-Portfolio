@@ -4,9 +4,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Website",
+      title: " ML- Based Eye Transplant Prediction",
       description:
-        "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration. Features include admin dashboard and order management.",
+        " Created a predictive model using Python and deep learning to assess donor-recipient compatibility in eye transplants. The system analyzed medical and retinal image data to recommend optimal matches with improved accuracy.",
       techStack: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
       githubLink: "https://github.com/[username]/ecommerce-project",
       demoLink: "https://[your-demo-link].netlify.app",
@@ -14,9 +14,9 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Smart Keychain Tracker",
       description:
-        "A responsive task management application with drag-and-drop functionality, real-time updates, and team collaboration features. Built with modern React patterns.",
+        " Designed a smart keychain that helps users find lost keys using Bluetooth or Wi-Fi. It connects to a phone and plays a sound or sends an alert when the keys are misplaced.",
       techStack: ["React", "Firebase", "Tailwind CSS", "React DnD"],
       githubLink: "https://github.com/[username]/task-manager",
       demoLink: "https://[your-demo-link].vercel.app",
@@ -26,22 +26,22 @@ const Projects = () => {
       id: 3,
       title: "Weather Dashboard",
       description:
-        "An interactive weather dashboard that displays current weather, 5-day forecast, and weather maps. Features location-based weather and favorite cities management.",
+        " Built an automated CI pipeline using Jenkins to run unit tests on every code commit or pull request. Integrated with GitHub, JUnit, and Maven to fetch code, build the project, run tests, and generate reports. Used GitHub Actions to trigger Jenkins jobs automatically",
       techStack: ["JavaScript", "OpenWeather API", "Chart.js", "CSS3"],
       githubLink: "https://github.com/[username]/weather-dashboard",
       demoLink: "https://[your-demo-link].github.io",
       image: "🌤️",
     },
-    {
-      id: 4,
-      title: "Personal Finance Tracker",
-      description:
-        "A web application to track personal expenses and income with data visualization, budget planning, and financial goal setting features.",
-      techStack: ["React", "Python", "Flask", "SQLite", "Chart.js"],
-      githubLink: "https://github.com/[username]/finance-tracker",
-      demoLink: "https://[your-demo-link].herokuapp.com",
-      image: "💰",
-    },
+    // {
+    //   id: 4,
+    //   title: "Personal Finance Tracker",
+    //   description:
+    //     "A web application to track personal expenses and income with data visualization, budget planning, and financial goal setting features.",
+    //   techStack: ["React", "Python", "Flask", "SQLite", "Chart.js"],
+    //   githubLink: "https://github.com/[username]/finance-tracker",
+    //   demoLink: "https://[your-demo-link].herokuapp.com",
+    //   image: "💰",
+    // },
   ];
 
   return (
@@ -66,7 +66,7 @@ const Projects = () => {
             >
               <div className="p-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="text-4xl">{project.image}</div>
+                  {/* <div className="text-4xl">{project.image}</div> */}
                   <h3 className="text-xl font-bold text-gray-800 group-hover:text-primary transition-colors duration-300">
                     {project.title}
                   </h3>
@@ -76,7 +76,7 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                <div className="mb-6">
+                {/* <div className="mb-6">
                   <h4 className="text-sm font-semibold text-gray-800 mb-3">
                     Tech Stack:
                   </h4>
@@ -90,9 +90,9 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <a
                     href={project.githubLink}
                     target="_blank"
@@ -134,7 +134,7 @@ const Projects = () => {
                     </svg>
                     Live Demo
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
@@ -142,7 +142,7 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://github.com/[username]"
+            href="https://github.com/manisharajkumar46/manisharajkumar46/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg font-medium hover:bg-secondary transform hover:scale-105 transition-all duration-300"
