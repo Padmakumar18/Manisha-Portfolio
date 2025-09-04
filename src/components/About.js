@@ -55,12 +55,12 @@ const About = () => {
                     <div className="w-3 h-3 bg-primary rounded-full mt-2"></div>
                     <div>
                       <h5 className="font-semibold text-gray-800">
-                        Bachelor's in Computer Science
+                        Master of Computer Applications
                       </h5>
                       <p className="text-gray-600 text-sm">
-                        [University Name] • [Year]
+                        Kongu Arts and Science College • 2024 - 2026
                       </p>
-                      <p className="text-gray-600 text-sm">CGPA: [Your CGPA]</p>
+                      <p className="text-gray-600 text-sm">Percentage: 80%</p>
                     </div>
                   </div>
 
@@ -83,7 +83,7 @@ const About = () => {
                     <div>
                       <h5 className="font-semibold text-gray-800">Interests</h5>
                       <p className="text-gray-600 text-sm">
-                        Web Development, Mobile Apps, AI/ML, Open Source
+                        Web Development, Software Development, Open Source
                         Contribution
                       </p>
                     </div>
