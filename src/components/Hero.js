@@ -8,12 +8,23 @@ const Hero = () => {
     >
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fadeInUp">
-          {/* Profile Photo Placeholder */}
-          <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
+          {/* Profile Photo */}
+          <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden shadow-lg">
+            <img
+              src="/profile.jpg"
+              alt="Jayamanisha Profile"
+              className="w-full h-full object-cover rounded-full hover:scale-105 transition-transform duration-300"
+              onError={(e) => {
+                console.log("Image failed to load, showing fallback");
+                e.target.style.display = "none";
+                e.target.nextSibling.style.display = "flex";
+              }}
+            />
             <svg
               className="w-24 h-24 text-gray-400"
               fill="currentColor"
               viewBox="0 0 20 20"
+              style={{ display: "none" }}
             >
               <path
                 fillRule="evenodd"
@@ -41,7 +52,8 @@ const Hero = () => {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1Fr53cDZy-JkEUYLXlIQjdaFO-v04gO-C/view?usp=drive_link"
+              target="_blank"
               download
               className="border-2 border-primary text-primary px-8 py-3 rounded-lg font-medium hover:bg-primary hover:text-white transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
             >
