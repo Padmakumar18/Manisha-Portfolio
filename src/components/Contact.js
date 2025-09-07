@@ -115,7 +115,6 @@ const Contact = () => {
                     <h4 className="font-semibold text-gray-800">
                       {info.label}
                     </h4>
-                    <p className="text-gray-600 text-sm">{info.value}</p>
                   </div>
                 </a>
               ))}
