@@ -52,7 +52,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1Fr53cDZy-JkEUYLXlIQjdaFO-v04gO-C/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1u84Oa9F3j4G0eupUZ5mJ3tLiBVzN3Goa/view?usp=drive_link"
               target="_blank"
               download
               className="border-2 border-primary text-primary px-8 py-3 rounded-lg font-medium hover:bg-primary hover:text-white transform hover:scale-105 transition-all duration-300 flex items-center gap-2"

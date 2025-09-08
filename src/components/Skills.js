@@ -4,12 +4,12 @@ const Skills = () => {
   const technicalSkills = [
     { name: "Java", level: 85, icon: "🟨" },
     { name: "Python", level: 80, icon: "⚛️" },
-    { name: "PHP", level: 75, icon: "🟢" },
+    { name: "C#", level: 75, icon: "🟢" },
     { name: "SQL", level: 70, icon: "🐍" },
     { name: "HTML/CSS", level: 90, icon: "🌐" },
     { name: "Git", level: 75, icon: "📚" },
     { name: "Jenkins", level: 65, icon: "🍃" },
-    { name: "VB.NET", level: 70, icon: "🗄️" },
+    { name: ".NET", level: 70, icon: "🗄️" },
   ];
 
   const softSkills = [
